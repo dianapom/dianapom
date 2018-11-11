@@ -62,10 +62,10 @@ h1 {
 }
 
 p {
-	color: white;
+	color: #ba754a;
 	font-family: 'Katibeh', cursive;
 	text-align: center;
-	text-shadow: 1px 1px 1px #412825;
+	text-shadow: 1px 1px 1px #ffffff;
 }
 
 .footer-middle{
@@ -92,4 +92,8 @@ a{
 
 .navbar-light .navbar-brand{
 	color: #412124;
+}
+
+.dropdown-menu {
+	background-color: #bfa18d;
 }

@@ -1,5 +1,15 @@
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="icon" href="img/pom1.png">
+
+<link href="https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Katibeh" rel="stylesheet">
+
+
+
+
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -15,14 +25,54 @@
 </head>
 <body>
 
+
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="img/pom1.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    DianaPom
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Images</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Videos</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Select you Pomeranian
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Size</a>
+          <a class="dropdown-item" href="#">Color</a>
+          <a class="dropdown-item" href="#">Age</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+</nav>
+
+
+
+
 	<div class="jumbotron">
 		<h1 class="display-4">Hello, world!</h1>
-		<p class="lead">This is a page about Pomeranians.</p>
-		<hr class="my-4">
-		<p>It has a lot of cute pictures and videos.</p>
-		<a class="btn btn-primary btn-lg" href="#carouselExampleIndicators" role="button">Learn more</a>
+		<p class="lead">This is a page about Pomeranians. <br>It has a lot of cute pictures and videos.</p>
+		<div class="center">
+		<a class="btn bg-light btn-lg" href="#carouselExampleIndicators" role="button">Explore</a></div>
 
-		<div id="carouselExampleIndicators" class="carousel slide m-4" data-ride="carousel">
+
+
+		<div id="carouselExampleIndicators" class="carousel slide m-4 mx-auto" data-ride="carousel">
 			<ol class="carousel-indicators">
 				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -33,10 +83,10 @@
 					<img class="d-block w-100" src="http://torontodogstuff.com/wp-content/uploads/2013/11/Pomeranian-Featured-660x330.jpg" alt="First slide">
 				</div>
 				<div class="carousel-item">
-					<img class="d-block w-100" src="https://www.dogmal.com/wp-content/uploads/2016/12/Pomeranian-dog.jpg" alt="Second slide">
+					<img class="d-block w-100" src="https://www.nylabone.com/-/media/images/nylabone-na/us/dog101/breeds-a-z/pomeranian-jpg.jpg" alt="Second slide">
 				</div>
 				<div class="carousel-item">
-					<img class="d-block w-100" src="https://www.dogster.com/wp-content/uploads/2017/08/A-pomeranian-on-grass.jpg" alt="Third slide">
+					<img class="d-block w-100" src="http://cdn.tipresentoilcane.com/wp-content/uploads/2015/03/06021204/volpinopomerania.jpg" alt="Third slide">
 				</div>
 			</div>
 			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -57,14 +107,15 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav footer-middle">
+    	<a class="nav-item nav-link" href="#">
+      	<i class="fa fa-facebook" aria-hidden="true"></i>
+	 </a>
       <a class="nav-item nav-link" href="#">
       	<i class="fa fa-instagram" aria-hidden="true"></i>
-
-      </a>
-      <a class="nav-item nav-link" href="#">
-      	<i class="fa fa-facebook" aria-hidden="true"></i>
-
-      </a>
+	</a>
+	 <a class="nav-item nav-link" href="#">
+      	<i class="fa fa-twitter" aria-hidden="true"></i>
+	 </a>
     </div>
   </div>
 </nav>

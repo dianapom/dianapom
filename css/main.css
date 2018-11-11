@@ -35,8 +35,8 @@ h1{
 */
 
 body {
-	background-color: beige;
-	font-family: 'Oswald', sans-serif;
+	background-color: #a27c65;
+	
 }
 
 
@@ -46,23 +46,50 @@ body {
 }
 
 .jumbotron{
-	background: url("https://assets.awwwards.com/awards/images/2011/07/gif-cinematic04.gif");
+	background: url("https://groupecasino.i.lithium.com/t5/image/serverpage/image-id/162009i5D15D044DDE6F8CE?v=1.0");
 	background-repeat: no-repeat; 
     background-size: cover;
-    height: 1000px;
+    height: 550px;
     background-position: center;
 	
 }
 h1 {
-	color: #fffdf4cc;
+	color: #f9e5c9;
 	text-shadow: 1px 1px #2e1821;
+	font-family: 'Oleo Script Swash Caps', cursive;
+	text-align: center;
 
 }
 
 p {
 	color: white;
+	font-family: 'Katibeh', cursive;
+	text-align: center;
+	text-shadow: 1px 1px 1px #412825;
 }
 
 .footer-middle{
 	margin: auto;
+}
+
+
+.carousel{
+	max-width: 40%;
+}
+
+
+.center {
+    text-align: center;
+}
+
+.bg-light{
+
+	background-color: #a27c65!important;
+}
+a{
+	color: white;
+}
+
+.navbar-light .navbar-brand{
+	color: #412124;
 }
